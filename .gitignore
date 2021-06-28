@@ -1,5 +1,8 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,vim,pycharm,jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,vim,pycharm,jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/vim,macos,python,pycharm,jupyternotebooks,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,macos,python,pycharm,jupyternotebooks,dotenv
+
+### dotenv ###
+.env
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -255,7 +258,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -308,5 +310,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,vim,pycharm,jupyternotebooks,python
-
+# End of https://www.toptal.com/developers/gitignore/api/vim,macos,python,pycharm,jupyternotebooks,dotenv
